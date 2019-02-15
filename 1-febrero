@@ -1,0 +1,25 @@
+var r,g,b;
+function setup() {
+  
+  createCanvas(400, 400);
+  rectMode(CENTER);
+ 
+}
+
+function draw() {
+ 	background(150);
+  textSize(20);
+  var x=20;
+  var y =20;
+  text("Jesus Antonio Lerma Tovar  1630357", x, y);
+ 
+  rect(200,200,150,150) ;
+  fill(r,g,b);
+
+}
+function mousePressed(){
+   r= random(0,256);
+   g= random(0,256);
+   b= random(0,256); 
+  
+}
